@@ -132,7 +132,7 @@ class Filter extends React.Component{
         //Filter API Call
         axios({
             method : 'POST',
-            url:'http://localhost:2023/filter',
+            url:'https://zomatobackendapp.herokuapp.com/filter',
             headers :  { 'content-type': 'application/json'},
             data : inputObj
         }).then(
@@ -158,7 +158,7 @@ class Filter extends React.Component{
 
         axios({
             method : 'GET',
-            url:'http://localhost:2023/locations'
+            url:'https://zomatobackendapp.herokuapp.com/locations'
         }).then(
             response => (this.setState({filterDDlocations : response.data}))
         ).catch(
@@ -168,7 +168,7 @@ class Filter extends React.Component{
         // fetch restuarant for location
         axios({
             method : 'POST',
-            url:'http://localhost:2023/filter',
+            url:'https://zomatobackendapp.herokuapp.com/filter',
             headers :  { 'content-type': 'application/json'},
             data : inputObj
         }).then(

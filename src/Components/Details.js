@@ -45,7 +45,7 @@ class Details extends React.Component{
 
         axios({
             method : 'GET',
-            url:`http://localhost:2023/getRestuarantById/${restId}`
+            url:`https://zomatobackendapp.herokuapp.com/getRestuarantById/${restId}`
         }).then(
             response => (this.setState({restuarantData : response.data.restaurant , restId}))
         ).catch(

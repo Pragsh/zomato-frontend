@@ -29,7 +29,7 @@ class Header extends React.Component{
             
             axios({
                 method : 'POST',
-                url : 'http://localhost:2023/verify',
+                url : 'https://zomatobackendapp.herokuapp.com/verify',
                 data : {email : email},
                 headers :  { 'content-type': 'application/json'}
             }).then(response =>  {
@@ -54,7 +54,7 @@ class Header extends React.Component{
         }
         axios({
             method : 'POST',
-            url : 'http://localhost:2023/register',
+            url : 'https://zomatobackendapp.herokuapp.com/register',
             headers :  { 'Content-Type': 'application/json'},
             data : inputObj
         }).then(

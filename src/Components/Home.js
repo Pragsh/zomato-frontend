@@ -18,7 +18,7 @@ class Home extends React.Component{
         //location API call
         axios({
             method : 'GET',
-            url:'http://localhost:2023/locations'
+            url:'https://zomatobackendapp.herokuapp.com/locations'
         }).then(
             response => (this.setState({locations : response.data}))
         ).catch(
@@ -28,7 +28,7 @@ class Home extends React.Component{
         // Quick Search API Call
         axios({
             method : 'GET',
-            url:'http://localhost:2023/mealtypes'
+            url:'https://zomatobackendapp.herokuapp.com/mealtypes'
         }).then(
             response => (this.setState({quickSearch : response.data.mealtypes}))
         ).catch(

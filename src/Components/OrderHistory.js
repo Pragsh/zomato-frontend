@@ -15,7 +15,7 @@ class OrderHistory extends React.Component{
         let userId =this.props.userEmailId;
         axios({
             method : 'GET',
-            url:`http://localhost:2023/fetchOrders/${userId}`
+            url:`https://zomatobackendapp.herokuapp.com/fetchOrders/${userId}`
         }).then(
             response => (this.setState({orders : response.data.orders}))
         ).catch(

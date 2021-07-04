@@ -65,7 +65,7 @@ class Order extends React.Component{
     }
 
     getData = (data) => {
-        return fetch(`http://localhost:2023/payment`,{
+        return fetch(`https://zomatobackendapp.herokuapp.com/payment`,{
             method : 'POST',
             headers : { "Content-Type" : "application/json"},
             body :JSON.stringify(data)  
@@ -128,7 +128,7 @@ class Order extends React.Component{
         //Save order history temporary
         axios({
             method :'POST',
-            url : 'http://localhost:2023/saveOrder',
+            url : 'https://zomatobackendapp.herokuapp.com/saveOrder',
             headers : { 'content-type': 'application/json'},
             data : dataObj
             
@@ -151,7 +151,7 @@ class Order extends React.Component{
         let userEmail = sessionStorage.getItem("email");
         axios({
             method : 'GET',
-            url : `http://localhost:2023/menuItems/${this.props.restId}`
+            url : `https://zomatobackendapp.herokuapp.com/menuItems/${this.props.restId}`
         }).then(
             response => (this.setState({menuItems : response.data.restMenus.dishName, userEmail : userEmail }))
         ).catch(
