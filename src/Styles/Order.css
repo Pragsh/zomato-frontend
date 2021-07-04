@@ -1,0 +1,52 @@
+.order-div{
+    width: 420px;
+    height: 600px;
+}
+.item-heading{
+    font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+}
+.item-desc{
+  font-family: RupeeForadian;
+  font-size: 14px;
+  color: #696b78;
+}
+
+.btn-position{
+    margin-left: 27px;
+    margin-top: -10px;
+
+}
+
+.add-item{
+    margin-left: 23px;
+    margin-top: -11px;
+    font-size: 20px;
+}
+.menu-item{
+    display: inline-block;
+    width: 37%;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    height: 124px;
+}
+.restname{
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: #192f60;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.subtotal{
+        font-family: 'Poppins';
+        font-size: 20px;
+        color: #192f60;
+        font-weight: 600;
+        display: inline-block;
+}
+
+.subtotal-div{
+    background-color: #f5f8ff;
+}

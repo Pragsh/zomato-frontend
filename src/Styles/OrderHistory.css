@@ -1,0 +1,35 @@
+.order-head{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    vertical-align: top;
+    text-align: left;
+    color: #192f60;
+}
+
+.order-data{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    vertical-align: top;
+    text-align: left;
+    color: #192f60;
+}
+.order-div{
+    width: 450px;
+    height: 700px;
+    overflow-x: auto;
+}
+
+.order{
+    padding: 8px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+}

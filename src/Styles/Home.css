@@ -1,0 +1,168 @@
+.quick-search-heading {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.53;
+    text-align: left;
+    color: #192f60;
+    margin-top: -46px;
+}
+
+.discover {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-bottom: 18px;
+}
+
+.food-category {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+    color: #192f60;
+}
+
+.quick-search-div {
+    width: 360px;
+    height: 160px;
+    margin: 5px 0px 28px 0px;
+    background-color: white;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+}
+
+.heading-wallpaper {
+    position: relative;
+    top: -232px;
+    color: white;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: expanded;
+    font-style: normal;
+    line-height: 1.53;
+}
+
+.search-box {
+    position: relative;
+    top: -222px;
+    left: -10%;
+    text-align: center;
+}
+
+.search-select {
+    padding: 6px;
+    width: 175px;
+    height: 34px;
+    color: gray;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.search-icon {
+    left: 47%  !important;
+    top: 10px  !important;
+    position: absolute !important;
+    color: gray  !important;
+}
+
+.search-input {
+    padding-left: 30px;
+    font-size: 15px;
+    border: none;
+    width: 283px;
+    border-radius: 2px;
+    float: left;
+    text-align: left;
+    height: 35px;
+    margin-left: 5px;
+    color: gray;
+}
+
+.quick-search {
+    width: 350px;
+    height: 150px;
+    border: solid 2px red;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+   .search-icon {
+        left: 46%  !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .search-icon {
+        left: 23%  !important;;
+        top: 82%  !important;
+        position: absolute !important;
+        color: gray  !important;
+    }
+   
+    .quick-search-heading {
+        font-family: Poppins;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 1.53;
+        text-align: left;
+        color: #192f60;
+        margin-top: -86px;
+    }
+   
+    .heading-wallpaper {
+        position: relative;
+        top: -282px;
+        color: white;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.53;
+    }
+    .search-box {
+        position: relative;
+        top: -280px;
+        left: 0%;
+        text-align: center;
+    }
+    .search-select {
+        padding: 6px;
+        width: 283px;
+        height: 34px;
+        color: gray;
+        border: none;
+        border-radius: 2px;
+        font-size: 15px;
+        margin: 16px 0px 13px 0px;
+    }
+    .search-input {
+        padding-left: 30px;
+        font-size: 15px;
+        border: none;
+        width: 283px;
+        float: left;
+        text-align: left;
+        height: 35px;
+        color: gray;
+        border-radius: 2px;
+    }
+}
+
+.quick-search {
+    font-family: Poppins;
+    font-size: 18px;
+    margin: 17px 0px 0px 18px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+

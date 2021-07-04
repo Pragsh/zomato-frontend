@@ -1,0 +1,49 @@
+.details{
+    font-size: 29px;
+    line-height: 3.53;
+    text-align: left;
+    color: #192f60;
+}
+
+.item-detail{
+    font-size: 14px;
+    color: #192f60;
+    font-weight: 400 !important;
+}
+.img-gallery-btn{
+    position: absolute;
+    top: 60%;
+    right: 14%;
+    font-size: 16px;
+    padding: 6px;
+    opacity: 0.9;
+}
+
+.detail-heading{
+    font-size: 15px;
+    color: #192f60;
+}
+
+.generalfont{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.tab-div{
+    margin-top: 21px;
+}
+.headings{
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.nav-tabs .nav-link.active{
+    border-bottom: 2px solid red !important;
+}
+.nav-link{
+    border: 0px !important;
+}

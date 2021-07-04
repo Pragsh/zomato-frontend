@@ -1,0 +1,57 @@
+.header-div{
+    width: 100%;
+     height: 80px;
+    margin: 0 0 20px;
+    background-color: #ce0505
+}
+
+.Login {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin: 20px 4px 0px 0px;
+  }
+
+  .googleClass{
+    height: 59px;
+    width: 281px;
+  }
+  .create-Account{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    margin: 20px 22px 0px 10px;
+    padding: 8px;
+}
+
+.logo{
+    color: red;
+    font-size: 46px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border: solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    background-color: white;
+}
+
+.google{
+    width: 255px !important;
+    height: 0px !important;
+    font-size: 21px !important;
+}
